@@ -1,0 +1,56 @@
+.Weather-info-div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+
+.Weather-info-div-card{
+    width: 800px;
+    /* border: 5px solid rgb(140, 180, 207); */
+    background-image: linear-gradient(45deg, rgb(212, 224, 227),rgb(190, 219, 237));
+
+    
+}
+
+.card-info{
+    font-size: 20px;
+    font-weight: 550;
+}
+.card-info span{
+    
+    color: black;
+    
+}
+.info-cityname{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.Weather-info-div-cardcontent{
+    text-align: center;
+}
+.Weather-info-div-cardcontent-rainicon{
+    color:rgb(95, 93, 93);
+    padding-left: 5px;
+    
+}
+.Weather-info-div-cardcontent-hoticon{
+    color:yellow;
+    padding-left: 5px;
+    
+}
+.Weather-info-div-cardcontent-coldicon{
+    color:rgb(95, 93, 93);
+    padding-left: 5px;
+    
+}
+.Weather-info-div-cardcontent-roomicon{
+    color:rgb(95, 93, 93);
+    padding-left: 5px;
+    
+}
